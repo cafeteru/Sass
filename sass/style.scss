@@ -1,0 +1,30 @@
+// Con el import importo sentencias de sass de otros archivos
+@import "variables";
+@import "header";
+
+body {
+    background-color: white;
+
+    h1 {
+        color: yellow;
+    }
+
+    h2 {
+        color:red;
+        a {
+            color: blue;
+        }
+    }
+}
+section {
+    background: $color1;
+    h1 {
+        background: $color2;
+    }
+    h2 {
+        background: $color3;
+    }
+    p {
+        background: $color4;
+    }
+}

@@ -1,0 +1,24 @@
+/**
+ * @mixin: conjunto de propiedades que se asignan a la vez
+ * $fondo -> variable
+ * $ancho:200px -> variable con valor por defecto
+ */
+#c1 {
+  background-color: gray;
+  width: 200px;
+  margin: 5px;
+  padding: 10px; }
+
+#c2 {
+  background-color: red;
+  width: 300px;
+  margin: 5px;
+  padding: 10px; }
+
+#c3 {
+  background-color: blue;
+  width: 500px;
+  margin: 5px;
+  padding: 10px; }
+
+/*# sourceMappingURL=mixin.css.map */

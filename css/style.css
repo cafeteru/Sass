@@ -1,0 +1,22 @@
+header {
+  height: 200px; }
+
+body {
+  background-color: white; }
+  body h1 {
+    color: yellow; }
+  body h2 {
+    color: red; }
+    body h2 a {
+      color: blue; }
+
+section {
+  background: #f9ed69; }
+  section h1 {
+    background: #f08a5d; }
+  section h2 {
+    background: #b82b5e; }
+  section p {
+    background: #6a2c70; }
+
+/*# sourceMappingURL=style.css.map */

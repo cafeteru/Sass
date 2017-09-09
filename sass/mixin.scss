@@ -1,0 +1,23 @@
+/**
+ * @mixin: conjunto de propiedades que se asignan a la vez
+ * $fondo -> variable
+ * $ancho:200px -> variable con valor por defecto
+ */
+@mixin cuadrado ($fondo, $ancho:200px){
+    background-color: $fondo;
+    width: $ancho;
+    margin: 5px;
+    padding: 10px;
+}
+
+#c1 {
+    @include cuadrado(gray);
+}
+
+#c2 {
+    @include cuadrado(red, 300px);
+}
+
+#c3 {
+    @include cuadrado(blue, 500px);
+}
