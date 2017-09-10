@@ -8,7 +8,7 @@ Crea los css automaticamente a partir de los archivos de sass (scss).
 ```[terminal]
  	   gem install sass
 ```
-    3. Para comprobar su correcta instalación.
+	3. Para comprobar su correcta instalación.
 ```[terminal]
        sass -v
 ```
