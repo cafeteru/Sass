@@ -10,7 +10,7 @@ Crea los css automaticamente a partir de los archivos de sass (scss).
 	```
 	3. Para comprobar su correcta instalación.
 	```
-        sass -v
+	sass -v
 	```
 - Realizar siempre antes de empezar
 	- Abrir un terminal.
